@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700&family=Josefin+Slab:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+  --font-primary: "Baloo Da 2", serif;
+  --font-secundary: "Press Start 2P", serif;
+  --font-action: "Mulish", serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  
+}
+
+
+body {
+  background-color: #1f1425;
+  width: 0 auto;
+  position: relative;
+}
+
+.content {
+  margin-left: 130px;
+  margin-right: 130px;
+  
+}
+
+.logo {
+  width: 100%;
+ 
+}
+
+.logo img{
+  width: 30em;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+
+.header-1 {
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.menu {
+  width: 70%;
+  float: left;
+}
+
+.menu ul li {
+  display: inline-block;
+  margin-left: 35px;
+  height: 20px;
+  margin-top: 22px;
+  font-size: 12px;
+  font-family: var(--font-secundary);
+}
+
+.menu-link {
+  color: #718ede;
+  text-transform: uppercase;
+}
+
+.menu-link:hover {
+  color:#f37779;
+  
+}
+
+
+.busca {
+  text-align: center;
+  width: 30%;
+  float: right;
+
+}
+
+.busca input {
+  background-image: url('/images/lupa.png');
+  background-repeat: no-repeat;
+  background-position: 93%;
+  padding: 1vh;
+  border-radius: 10px;
+  margin-top: 14px;
+  margin-left: 25px;
+}
+
+.linha {
+
+  padding-top: 50px;
+}
+
+.bg-linha {
+  background-color: #f37779;
+}
+
+.menu-desenho {
+  position: relative;
+  margin: 100px;
+}
+
+.story-img {
+ background-color: rgb(187, 187, 187);
+ text-align: center;
+ padding-top: 30px;
+ padding-bottom: 80px;
+ border-radius: 10px;
+}
+
+.story-img img{
+  margin: 20px;
+  width: 80%;
+  box-shadow: 0.4rem 0.4rem 0.5rem rgba(0,0,0, .4)
+}
