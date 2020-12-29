@@ -18,7 +18,8 @@
   
 }
 
-
+/*----------------------------------------------------------------------------*/
+/*LOGO*/
 body {
   background-color: #1f1425;
   width: 0 auto;
@@ -42,7 +43,8 @@ body {
   display: block;
   position: relative;
 }
-
+/*----------------------------------------------------------------------------*/
+/*MENU*/
 .header-1 {
   margin: 0 auto;
   padding: 16px;
@@ -72,7 +74,6 @@ body {
   
 }
 
-
 .busca {
   text-align: center;
   width: 30%;
@@ -98,7 +99,8 @@ body {
 .bg-linha {
   background-color: #f37779;
 }
-
+/*----------------------------------------------------------------------------*/
+/*CONTEUDO*/
 .menu-desenho {
   position: relative;
   margin: 100px;
