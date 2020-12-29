@@ -112,25 +112,26 @@ body {
 }
 
 .story-img {
- background-color: rgb(187, 187, 187);
+ background-color: rgba(187, 187, 187, 0.411);
  text-align: center;
  padding-top: 30px;
  padding-bottom: 80px;
  border-radius: 10px;
+ box-shadow: 0.4rem 0.4rem 0.5rem rgba(0,0,0, .8)
 }
 
 .story-img img{
   margin: 20px;
   width: 80%;
-  box-shadow: 0.4rem 0.4rem 0.5rem rgba(0,0,0, .4)
+  box-shadow: 0.4rem 0.4rem 0.5rem rgba(0,0,0, .4);
 }
 
 .story-img h1 {
-  color: #3a3a3a;
+  color: #fdfdfd;
 }
 
 .story-img p {
-  color: rgb(73, 73, 73);
+  color: rgb(230, 230, 230);
   text-align: left;
   margin: 15px;
 }
