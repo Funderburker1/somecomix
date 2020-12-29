@@ -21,7 +21,7 @@
 /*----------------------------------------------------------------------------*/
 /*LOGO*/
 body {
-  background-color: #1f1425;
+  background-color: #e7e7e7;
   width: 0 auto;
   position: relative;
 }
@@ -38,7 +38,7 @@ body {
 }
 
 .logo img{
-  width: 30em;
+  width: 35em;
   margin: 0 auto;
   display: block;
   position: relative;
@@ -65,7 +65,7 @@ body {
 }
 
 .menu-link {
-  color: #718ede;
+  color: #545454;
   text-transform: uppercase;
 }
 
@@ -82,7 +82,7 @@ body {
 }
 
 .busca input {
-  background-color: #34233d;
+  background-color: #545454;
   border: none;
   color: #718ede;
   background-image: url('/images/lupa.png');
@@ -117,21 +117,21 @@ body {
  padding-top: 30px;
  padding-bottom: 80px;
  border-radius: 10px;
- box-shadow: 0.4rem 0.4rem 0.5rem rgba(0,0,0, .8)
+ box-shadow: 0.4rem 0.4rem 0.5rem rgba(0,0,0, .2)
 }
 
 .story-img img{
   margin: 20px;
   width: 80%;
-  box-shadow: 0.4rem 0.4rem 0.5rem rgba(0,0,0, .4);
+  box-shadow: 0.4rem 0.4rem 0.5rem rgba(0,0,0, .2);
 }
 
 .story-img h1 {
-  color: #fdfdfd;
+  color: #333333;
 }
 
 .story-img p {
-  color: rgb(230, 230, 230);
+  color: rgb(68, 67, 67);
   text-align: left;
   margin: 15px;
 }
