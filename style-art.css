@@ -131,6 +131,7 @@ body {
   cursor: pointer;
   padding-top: 20px;
   padding-right: 15px;
+  outline-style: none;
 }
 
 .gif input:hover {
