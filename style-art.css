@@ -117,7 +117,7 @@ body {
 /*CONTEUDO*/
 
 .gif {
-  float: right;
+  float: left;
   display: block;
   background-size: cover;
   
