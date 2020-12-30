@@ -142,6 +142,7 @@ body {
 
 .slider-principal {
   margin: 50px;
+  
 }
 
 
@@ -151,20 +152,32 @@ body {
 }
 
 .col-100 {
- background-color: rgb(209, 209, 209);
+  background-image: url(/images/fundo.png);
+ 
  text-align: center;
- padding-top: 25px;
+ padding-top: 5px;
  padding-bottom: 80px;
  margin-right: 30px;
  border-radius: 10px;
- 
  box-shadow: 0.4rem 0.4rem 0.5rem rgba(0,0,0, .2)
 }
 
 .col-100 img{
+  width: 500px;
+  height: 500px;
+  object-fit: contain;
+  margin-bottom: 10px;
+  cursor: pointer;
+  outline-style: none;
+ 
+}
+
+.menu-desenho h1 {
+  color: #333333;
   text-align: center;
-  margin-bottom: 60px;
-  
+  padding-right: 80px;
+  margin: 20px;
+  font-family: var(--font-secundary);
 }
 
 .col-100 h1 {
@@ -177,9 +190,9 @@ body {
 }
 
 .col-100 p {
-  color: rgb(31, 30, 30);
+  color: rgb(240, 240, 240);
   text-align: left;
-  margin-top: 100px;
+  margin-top: 40px;
   margin-left: 20px;
   margin-right: 20px;
   font-family: var(--font-primary);
@@ -221,54 +234,54 @@ footer {
 button.slick-prev {
   font-size: 0px;
   border: none;
-  width: 25px;
-  height: 51px;
-  z-index: 100;
+  background-image: url(/images/anterior.png);
+  background-repeat: no-repeat;
   background-color: transparent;
+  width: 35px;
+  background-position: 50%;
+  height: 30px;
   position: absolute;
-  background-image: url('/images/anterior.png');
-  top: 100%;
-  left: 14%;
+  top: 25%;
+  left: -18%; 
   cursor: pointer;
+  outline: none;
 }
+
 
 button.slick-prev:hover {
   -webkit-transform: scale(1.5);
   -ms-transform: scale(1.5);
-   transform: scale(1.4);
+   transform: scale(1.5);
 }
 
 button.slick-next {
   font-size: 0px;
   border: none;
-  width: 25px;
-  height: 51px;
-  z-index: 100;
-  background-color: transparent ;
+  width: 35px;
+  height: 30px;
+  background-image: url(/images/proximo.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-color: transparent;
   position: absolute;
-  background-image: url('/images/proximo.png');
-  top: 100%;
-  right: 14%;
+  top: 25%;
+  right: -18%; 
   cursor: pointer;
-  
+  outline: none;
 }
 
 button.slick-next:hover {
   -webkit-transform: scale(1.5);
   -ms-transform: scale(1.5);
-   transform: scale(1.4);
+   transform: scale(1.5);
 }
 
 
+
 .slick-dots li button{
-  display: inline-block;
-  font-size: 0px;
-  border: 3px solid #ffffff;
-  background: transparent;
-  border-radius: 50%;
-  width: 12px;
-  height: 12px;
-  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 0;
 }
 
 .slick-dots {

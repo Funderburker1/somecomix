@@ -67,7 +67,7 @@ body {
 }
 
 .menu-link {
-  color: #545454;
+  color: #3a3a3a;
   text-transform: uppercase;
 }
 
@@ -86,11 +86,10 @@ body {
   text-align: center;
   width: 30%;
   float: right;
-
 }
 
 .busca input {
-  background-color: #545454;
+  background-color: #3a3a3a;
   border: none;
   color: #abcf40;
   background-image: url('/images/lupa.png');
@@ -161,24 +160,27 @@ body {
 }
 
 .col-100 img{
-  text-align: center;
-  margin-bottom: 60px;
+  width: 500px;
+  height: 500px;
+  object-fit: contain;
+  margin-bottom: 5px;
+  cursor: pointer;
+  outline-style: none;
   
 }
 
-.col-100 h1 {
-  color: #333333;
-  display: block;
-  margin: auto;
-  padding: 20px;
-  margin-left: 50px;
+.menu-desenho h1 {
+  color: #3a3a3a;
+  text-align: center;
+ padding-left: 40px;
+  margin: 20px;
   font-family: var(--font-secundary);
 }
 
 .col-100 p {
-  color: rgb(31, 30, 30);
+  color: #3a3a3a;
   text-align: left;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-left: 20px;
   margin-right: 20px;
   font-family: var(--font-primary);
@@ -192,7 +194,7 @@ footer {
 }
 
 .rodape {
-  color: rgb(68, 67, 67);
+  color: #3a3a3a;
   font-family: var(--font-secundary);
   background: #abcf40;
   border-radius: 80% 80% 0% 0%;
@@ -220,44 +222,47 @@ footer {
 button.slick-prev {
   font-size: 0px;
   border: none;
-  width: 25px;
-  height: 51px;
-  z-index: 100;
+  background-image: url(/images/anterior.png);
+  background-repeat: no-repeat;
   background-color: transparent;
+  width: 35px;
+  background-position: 50%;
+  height: 30px;
   position: absolute;
-  background-image: url('/images/anterior.png');
-  top: 100%;
-  left: 14%;
+  top: 25%;
+  left: -18%; 
   cursor: pointer;
+  outline: none;
 }
+
 
 button.slick-prev:hover {
   -webkit-transform: scale(1.5);
   -ms-transform: scale(1.5);
-   transform: scale(1.4);
+   transform: scale(1.5);
 }
 
 button.slick-next {
   font-size: 0px;
   border: none;
-  width: 25px;
-  height: 51px;
-  z-index: 100;
-  background-color: transparent ;
+  width: 35px;
+  height: 30px;
+  background-image: url(/images/proximo.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-color: transparent;
   position: absolute;
-  background-image: url('/images/proximo.png');
-  top: 100%;
-  right: 14%;
+  top: 25%;
+  right: -18%; 
   cursor: pointer;
-  
+  outline: none;
 }
 
 button.slick-next:hover {
   -webkit-transform: scale(1.5);
   -ms-transform: scale(1.5);
-   transform: scale(1.4);
+   transform: scale(1.5);
 }
-
 
 .slick-dots li button{
   display: inline-block;
@@ -272,8 +277,7 @@ button.slick-next:hover {
 
 .slick-dots {
   position: absolute;
-  margin-left: 350px;
-  
+  margin-left: 320px;
   
 } 
 
