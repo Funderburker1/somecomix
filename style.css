@@ -28,8 +28,9 @@ body {
 
 
 .content {
-  margin-left: 100px;
-  margin-right: 100px;
+
+  margin-left: 130px;
+  margin-right: 130px;
 }
 
 .logo {
@@ -114,6 +115,31 @@ body {
 }
 /*----------------------------------------------------------------------------*/
 /*CONTEUDO*/
+
+.gif2 {
+  float: left;
+  display: block;
+  background-size: cover;
+  
+}
+
+.gif2 input {
+  width: 30vh;
+  padding: 0;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  padding-top: 20px;
+  padding-right: 18px;
+  outline-style: none;
+}
+
+.gif2 input:hover {
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+   transform: scale(1.4);
+}
+
 
 .gif {
   float: right;
